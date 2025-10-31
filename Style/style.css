@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    .header {
+        width: 100%;
+        height: 100vh;
+
+        nav {
+            width: 100%;
+            height: 100%;
+
+            .div-1 {
+                background-color: rgba(46, 24, 147, 0.458);
+            }
+
+            .div-2 .a-1:hover {
+                color: #a20707a0;
+                font-size: 23px;
+
+            }
+
+            .div-2 .a-1:focus {
+                color: #ffffff;
+                font-size: 23px;
+
+            }
+
+            .div-3 {
+                width: 55%;
+                bottom: 222px;
+
+                h1 {
+                    font-size: 72px;
+                    font-weight: 700;
+                }
+            }
+
+            .skrol {
+                width: 10%;
+                bottom: 185px;
+
+                p {
+                    width: 10px;
+                    height: 10px;
+                    border: 1px solid rgb(255, 255, 255);
+                    border-radius: 50%;
+                    margin-left: 6px;
+                }
+            }
+
+            button {
+                bottom: 120px;
+            }
+
+        }
+
+    }
+
+    .contet {
+        height: 736px;
+
+        .contet-bg {
+            background-color: rgba(46, 24, 147, 0.458);
+        }
+
+        .div-2 {
+            top: 140px;
+
+            h1 {
+                font-size: 72px;
+            }
+        }
+    }
+
+    .Featurs {
+        height: 736px;
+
+        .bg-form {
+            background-color: rgba(46, 24, 147, 0.458);
+        }
+
+        .div-1 {
+
+            .left {
+                width: 40%;
+
+                .img-1 {
+                    left: -64%;
+                    width: 150%;
+                    height: 67%;
+
+                }
+
+                .img-2 {
+                    border-radius: 4px;
+                    width: 149%;
+                    height: 60%;
+                    top: 100px;
+                    left: -82%;
+                }
+            }
+
+            .rigth {
+                width: 55%;
+            }
+
+            .skrol {
+                width: 5%;
+
+                p {
+                    width: 10px;
+                    height: 10px;
+                    border: 1px solid white;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+
+    }
+
+    .Form {
+        height: 100vh;
+
+        .div-1 {
+            background-color: rgba(46, 24, 147, 0.458);
+        }
+
+        .formes {
+
+            .right {
+                .top-1 {
+
+                    .top-2 {
+                        height: 10%;
+
+                        p {
+                            width: 50%;
+                            height: 100%;
+                            color: rgb(5, 125, 125);
+                            border-bottom: 2px solid rgba(235, 234, 237, 1);
+                        }
+
+                        .p-1 {
+                            border-bottom: 3px solid rgba(30, 14, 98, 1);
+                        }
+                    }
+
+                    button {
+                        background-color: rgba(37, 218, 197, 1);
+                    }
+
+                    .bottom-form {
+                        height: 2px;
+                        background-color: rgba(20, 20, 20, 0.599);
+                    }
+
+                    .p-bottom {
+                        background-color: white;
+                        width: 30px;
+                        top: 56%;
+                        right: 265px;
+
+                    }
+                }
+
+            }
+        }
+
+
+
+    }
+
+    .testimonial {
+        height: 100vh;
+        background-color: rgba(30, 14, 98, 1);
+
+        .div-1 {
+            display: flex;
+            flex-wrap: wrap;
+
+            div {
+                width: 45.5%;
+                height: 250px;
+                border: rgba(255, 255, 255, 0.532)2px solid;
+                margin-left: 25px;
+                margin-right: 23px;
+                border-radius: 10px;
+
+                img {
+                    border-radius: 20px;
+                }
+
+
+            }
+        }
+    }
+
+    .call-to-Action {
+        height: 601px;
+
+        .bg-page {
+            background-color: rgba(46, 24, 147, 0.458);
+
+        }
+
+        .Action {
+            .div-1 {
+                h1 {
+                    font-size: 58px;
+                    font-weight: 500;
+                }
+
+            }
+
+            .div-2 {
+                p {
+                    width: 46px;
+                    height: 46px;
+                    border-radius: 50%;
+                    background-color: rgba(234, 50, 35, 1);
+                }
+
+                button {
+                    background-color: rgba(37, 218, 197, 1);
+                }
+
+            }
+        }
+
+    }
+
+    .Taem {
+        background-color: rgba(30, 14, 98, 1);
+        height: 100vh;
+
+        .taem-1 {
+
+            .taem-1-2 {
+                div {
+                    width: 30%;
+                    height: 50%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    margin-bottom: 30px;
+
+                    .p-1 {
+                        width: 85px;
+                        height: 85px;
+                        border-radius: 50%;
+
+                        img {
+                            border-radius: 50%;
+                        }
+                    }
+
+                    .p-2 {
+                        img {
+                            padding-right: 25px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    .Contact {
+        height: 100vh;
+        .div-1 {
+            background-color: rgba(46, 24, 147, 0.458);
+        }
+        .Contact-secsino {
+            .lift {
+                width: 48%;
+
+                div {
+                    height: 45%;
+                }
+                .div-3 {
+                    p {
+                        padding-top: 10px;
+                    }
+                }
+            }
+            .right {
+                width: 48%;
+                color: rgba(30, 14, 98, 1);
+            }
+
+        }
+
+    }
+}
