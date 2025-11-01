@@ -297,4 +297,19 @@ body {
         }
 
     }
+
+    .pricing_table{
+        height: 100vh;
+    .div-1 {
+        background-color: rgba(46, 24, 147, 0.458);
+    }
+
+    .top-2{
+        div{
+            width: 20%;
+            height: 96%;
+        }
+    }
+}
+
 }
