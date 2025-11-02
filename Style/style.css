@@ -273,9 +273,11 @@ body {
 
     .Contact {
         height: 100vh;
+
         .div-1 {
             background-color: rgba(46, 24, 147, 0.458);
         }
+
         .Contact-secsino {
             .lift {
                 width: 48%;
@@ -283,12 +285,14 @@ body {
                 div {
                     height: 45%;
                 }
+
                 .div-3 {
                     p {
                         padding-top: 10px;
                     }
                 }
             }
+
             .right {
                 width: 48%;
                 color: rgba(30, 14, 98, 1);
@@ -298,18 +302,61 @@ body {
 
     }
 
-    .pricing_table{
+    .pricing_table {
         height: 100vh;
-    .div-1 {
-        background-color: rgba(46, 24, 147, 0.458);
-    }
 
-    .top-2{
-        div{
-            width: 20%;
-            height: 96%;
+        .div-1 {
+            background-color: rgba(46, 24, 147, 0.458);
+        }
+
+        .top-2 {
+            div {
+                width: 25%;
+                height: 96%;
+            }
         }
     }
-}
+
+    .footer-1 {
+        height: 30vh;
+        background-color: rgba(47, 24, 147, 1);
+        justify-items: center;
+
+        div {
+            width: 80%;
+
+            .top-1 {
+
+                .right {
+                    text-align: right;
+
+                    a {
+                        padding: 5px;
+                    }
+
+                    img {
+                        padding: 4px;
+                    }
+                }
+            }
+
+            .button-1 {
+                a {
+                    color: white;
+                    padding-left: 10px;
+                    text-decoration: none;
+                }
+            }
+
+
+
+
+            .pt {
+                width: 100%;
+                height: 1px;
+                background-color: rgba(255, 255, 255, 0.789)
+            }
+        }
+    }
 
 }
